@@ -9,7 +9,7 @@ const settings = {
   httpNodeRoot: "/api",
   userDir: "./",
   flowFile: 'flows.json',
-  credentialSecret: process.env.CREDENTIAL_SECRET || ''your-local-secret-key',
+  credentialSecret: process.env.CREDENTIAL_SECRET || 'your-local-secret-key',
   functionGlobalContext: {}
 };
 
