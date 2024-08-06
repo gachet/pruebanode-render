@@ -1,5 +1,5 @@
 require('dotenv').config();
-const bcrypt = require('bcrypjs');
+const bcrypt = require('bcryptjs');
 const http = require('http');
 const express = require('express');
 const RED = require('node-red');
